@@ -1006,3 +1006,10 @@ SyntaxError: unterminated string literal (detected at line 24)
 [2025-04-09T17:27:59.240+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:27:59.240+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2025-04-09T17:27:59.253+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:27:59.253+0000] {dag.py:3504} INFO - Setting next_dagrun for extract_csv_dag to None, run_after=None
 [2025-04-09T17:27:59.267+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py took 0.056 seconds
+[2025-04-09T17:28:29.405+0000] {processor.py:157} INFO - Started process (PID=17142) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:28:29.406+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py for tasks to queue
+[2025-04-09T17:28:29.406+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:28:29.406+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:28:29.414+0000] {processor.py:836} INFO - DAG(s) dict_keys(['extract_csv_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:28:29.431+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:28:29.431+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-09T17:28:29.444+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:28:29.444+0000] {dag.py:3504} INFO - Setting next_dagrun for extract_csv_dag to None, run_after=None
+[2025-04-09T17:28:29.457+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py took 0.055 seconds
