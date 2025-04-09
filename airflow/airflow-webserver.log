@@ -1,0 +1,2 @@
+2025-04-08 11:51:53,812 ERROR - [0 / 0] Some workers seem to have died and gunicorn did not restart them as expected
+2025-04-08 11:52:03,034 INFO - Received signal: 15. Closing gunicorn.

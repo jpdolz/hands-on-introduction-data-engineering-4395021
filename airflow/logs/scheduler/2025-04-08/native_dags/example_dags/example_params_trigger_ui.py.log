@@ -1,0 +1,88 @@
+[2025-04-08T11:42:14.498+0000] {processor.py:157} INFO - Started process (PID=2866) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:42:14.498+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:42:14.499+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:14.499+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:42:14.510+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:42:14.607+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:14.607+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2025-04-08T11:42:14.616+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:14.616+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2025-04-08T11:42:14.621+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:14.621+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2025-04-08T11:42:14.629+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:14.629+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:42:14.635+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:14.635+0000] {dag.py:2763} INFO - Creating ORM DAG for example_params_trigger_ui
+[2025-04-08T11:42:14.641+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:14.641+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:42:14.656+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.160 seconds
+[2025-04-08T11:42:59.673+0000] {processor.py:157} INFO - Started process (PID=3179) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:42:59.674+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:42:59.675+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:59.674+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:42:59.687+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:42:59.717+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:59.717+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:42:59.733+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:42:59.733+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:42:59.749+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.078 seconds
+[2025-04-08T11:43:47.351+0000] {processor.py:157} INFO - Started process (PID=3482) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:43:47.352+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:43:47.353+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:43:47.352+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:43:47.365+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:43:47.404+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:43:47.404+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:43:47.418+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:43:47.418+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:43:47.433+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.084 seconds
+[2025-04-08T11:44:32.127+0000] {processor.py:157} INFO - Started process (PID=3846) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:44:32.127+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:44:32.128+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:44:32.128+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:44:32.140+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:44:32.168+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:44:32.168+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:44:32.182+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:44:32.182+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:44:32.197+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.072 seconds
+[2025-04-08T11:45:14.472+0000] {processor.py:157} INFO - Started process (PID=4237) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:45:14.473+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:45:14.474+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:45:14.474+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:45:14.486+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:45:14.517+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:45:14.517+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:45:14.537+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:45:14.537+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:45:14.569+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.098 seconds
+[2025-04-08T11:45:59.031+0000] {processor.py:157} INFO - Started process (PID=4624) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:45:59.032+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:45:59.032+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:45:59.032+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:45:59.044+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:45:59.072+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:45:59.072+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:45:59.087+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:45:59.086+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:45:59.101+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.072 seconds
+[2025-04-08T11:46:47.221+0000] {processor.py:157} INFO - Started process (PID=4948) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:46:47.222+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:46:47.223+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:46:47.222+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:46:47.234+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:46:47.262+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:46:47.262+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:46:47.276+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:46:47.276+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:46:47.290+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.071 seconds
+[2025-04-08T11:47:32.428+0000] {processor.py:157} INFO - Started process (PID=5248) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:47:32.429+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:47:32.429+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:47:32.429+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:47:32.441+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:47:32.470+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:47:32.469+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:47:32.484+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:47:32.484+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:47:32.499+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.073 seconds
+[2025-04-08T11:48:15.820+0000] {processor.py:157} INFO - Started process (PID=5541) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:48:15.821+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:48:15.821+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:48:15.821+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:48:15.834+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:48:15.863+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:48:15.863+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:48:15.877+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:48:15.877+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:48:15.893+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.075 seconds
+[2025-04-08T11:49:01.776+0000] {processor.py:157} INFO - Started process (PID=6038) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:49:01.777+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:49:01.778+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:49:01.778+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:49:01.791+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:49:01.821+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:49:01.821+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:49:01.836+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:49:01.836+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:49:01.852+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.078 seconds
+[2025-04-08T11:49:45.169+0000] {processor.py:157} INFO - Started process (PID=6559) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:49:45.170+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:49:45.171+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:49:45.170+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:49:45.182+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:49:45.211+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:49:45.211+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:49:45.225+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:49:45.225+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:49:45.240+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.073 seconds
+[2025-04-08T11:50:29.010+0000] {processor.py:157} INFO - Started process (PID=6934) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:50:29.011+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-04-08T11:50:29.011+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:50:29.011+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:50:29.023+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-04-08T11:50:29.051+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:50:29.050+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-08T11:50:29.064+0000] {logging_mixin.py:150} INFO - [2025-04-08T11:50:29.064+0000] {dag.py:3504} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-04-08T11:50:29.078+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.071 seconds
