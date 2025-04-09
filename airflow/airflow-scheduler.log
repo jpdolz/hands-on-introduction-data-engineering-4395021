@@ -139,3 +139,285 @@
 2025-04-09 17:24:07,755 ERROR - Marking run <DagRun extract_csv_dag @ 2025-04-09 17:24:05.507117+00:00: manual__2025-04-09T17:24:05.507117+00:00, state:running, queued_at: 2025-04-09 17:24:05.515122+00:00. externally triggered: True> failed
 2025-04-09 17:24:07,755 INFO - DagRun Finished: dag_id=extract_csv_dag, execution_date=2025-04-09 17:24:05.507117+00:00, run_id=manual__2025-04-09T17:24:05.507117+00:00, run_start_date=2025-04-09 17:24:06.304587+00:00, run_end_date=2025-04-09 17:24:07.755494+00:00, run_duration=1.450907, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 17:24:05.507117+00:00, data_interval_end=2025-04-09 17:24:05.507117+00:00, dag_hash=ca766926f7665250b09cccb84d5ef79e
 2025-04-09 17:28:49,714 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 17:29:32,059 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:29:31.168221+00:00 [scheduled]>
+2025-04-09 17:29:32,059 INFO - DAG extract_csv_dag has 0/16 running and queued tasks
+2025-04-09 17:29:32,060 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:29:31.168221+00:00 [scheduled]>
+2025-04-09 17:29:32,061 INFO - Sending TaskInstanceKey(dag_id='extract_csv_dag', task_id='task_wget', run_id='manual__2025-04-09T17:29:31.168221+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 17:29:32,061 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:29:31.168221+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py']
+2025-04-09 17:29:32,064 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:29:31.168221+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py']
+2025-04-09 17:29:33,512 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_csv_dag', task_id='task_wget', run_id='manual__2025-04-09T17:29:31.168221+00:00', try_number=1, map_index=-1)
+2025-04-09 17:29:33,515 INFO - TaskInstance Finished: dag_id=extract_csv_dag, task_id=task_wget, run_id=manual__2025-04-09T17:29:31.168221+00:00, map_index=-1, run_start_date=2025-04-09 17:29:33.155771+00:00, run_end_date=2025-04-09 17:29:33.275220+00:00, run_duration=0.119449, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=12, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-09 17:29:32.060533+00:00, queued_by_job_id=8, pid=17819
+2025-04-09 17:29:33,537 ERROR - Marking run <DagRun extract_csv_dag @ 2025-04-09 17:29:31.168221+00:00: manual__2025-04-09T17:29:31.168221+00:00, state:running, queued_at: 2025-04-09 17:29:31.174156+00:00. externally triggered: True> failed
+2025-04-09 17:29:33,537 INFO - DagRun Finished: dag_id=extract_csv_dag, execution_date=2025-04-09 17:29:31.168221+00:00, run_id=manual__2025-04-09T17:29:31.168221+00:00, run_start_date=2025-04-09 17:29:32.044081+00:00, run_end_date=2025-04-09 17:29:33.537856+00:00, run_duration=1.493775, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 17:29:31.168221+00:00, data_interval_end=2025-04-09 17:29:31.168221+00:00, dag_hash=7300a1636a6a881e3a9161922c4f92a4
+2025-04-09 17:32:20,613 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:32:19.540738+00:00 [scheduled]>
+2025-04-09 17:32:20,613 INFO - DAG extract_csv_dag has 0/16 running and queued tasks
+2025-04-09 17:32:20,614 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:32:19.540738+00:00 [scheduled]>
+2025-04-09 17:32:20,615 INFO - Sending TaskInstanceKey(dag_id='extract_csv_dag', task_id='task_wget', run_id='manual__2025-04-09T17:32:19.540738+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 17:32:20,615 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:32:19.540738+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py']
+2025-04-09 17:32:20,618 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:32:19.540738+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py']
+2025-04-09 17:32:22,136 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_csv_dag', task_id='task_wget', run_id='manual__2025-04-09T17:32:19.540738+00:00', try_number=1, map_index=-1)
+2025-04-09 17:32:22,139 INFO - TaskInstance Finished: dag_id=extract_csv_dag, task_id=task_wget, run_id=manual__2025-04-09T17:32:19.540738+00:00, map_index=-1, run_start_date=2025-04-09 17:32:21.779036+00:00, run_end_date=2025-04-09 17:32:21.880632+00:00, run_duration=0.101596, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=13, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-09 17:32:20.614847+00:00, queued_by_job_id=8, pid=18864
+2025-04-09 17:32:22,168 ERROR - Marking run <DagRun extract_csv_dag @ 2025-04-09 17:32:19.540738+00:00: manual__2025-04-09T17:32:19.540738+00:00, state:running, queued_at: 2025-04-09 17:32:19.549238+00:00. externally triggered: True> failed
+2025-04-09 17:32:22,169 INFO - DagRun Finished: dag_id=extract_csv_dag, execution_date=2025-04-09 17:32:19.540738+00:00, run_id=manual__2025-04-09T17:32:19.540738+00:00, run_start_date=2025-04-09 17:32:20.597628+00:00, run_end_date=2025-04-09 17:32:22.169114+00:00, run_duration=1.571486, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 17:32:19.540738+00:00, data_interval_end=2025-04-09 17:32:19.540738+00:00, dag_hash=a54b68dd62927ccf544e4d833c152f1e
+2025-04-09 17:33:49,731 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 17:36:42,519 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:36:41.623882+00:00 [scheduled]>
+2025-04-09 17:36:42,519 INFO - DAG extract_csv_dag has 0/16 running and queued tasks
+2025-04-09 17:36:42,519 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:36:41.623882+00:00 [scheduled]>
+2025-04-09 17:36:42,520 INFO - Sending TaskInstanceKey(dag_id='extract_csv_dag', task_id='task_wget', run_id='manual__2025-04-09T17:36:41.623882+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 17:36:42,520 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:36:41.623882+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py']
+2025-04-09 17:36:42,523 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:36:41.623882+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py']
+2025-04-09 17:36:44,848 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_csv_dag', task_id='task_wget', run_id='manual__2025-04-09T17:36:41.623882+00:00', try_number=1, map_index=-1)
+2025-04-09 17:36:44,851 INFO - TaskInstance Finished: dag_id=extract_csv_dag, task_id=task_wget, run_id=manual__2025-04-09T17:36:41.623882+00:00, map_index=-1, run_start_date=2025-04-09 17:36:43.583616+00:00, run_end_date=2025-04-09 17:36:44.570846+00:00, run_duration=0.98723, state=success, executor_state=success, try_number=1, max_tries=0, job_id=14, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-09 17:36:42.520029+00:00, queued_by_job_id=8, pid=20525
+2025-04-09 17:36:44,883 INFO - Marking run <DagRun extract_csv_dag @ 2025-04-09 17:36:41.623882+00:00: manual__2025-04-09T17:36:41.623882+00:00, state:running, queued_at: 2025-04-09 17:36:41.629727+00:00. externally triggered: True> successful
+2025-04-09 17:36:44,884 INFO - DagRun Finished: dag_id=extract_csv_dag, execution_date=2025-04-09 17:36:41.623882+00:00, run_id=manual__2025-04-09T17:36:41.623882+00:00, run_start_date=2025-04-09 17:36:42.503852+00:00, run_end_date=2025-04-09 17:36:44.884087+00:00, run_duration=2.380235, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 17:36:41.623882+00:00, data_interval_end=2025-04-09 17:36:41.623882+00:00, dag_hash=85b5a67e4c5703eb04c21e7b03282585
+2025-04-09 17:37:08,068 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:37:07.154868+00:00 [scheduled]>
+2025-04-09 17:37:08,069 INFO - DAG extract_csv_dag has 0/16 running and queued tasks
+2025-04-09 17:37:08,069 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:37:07.154868+00:00 [scheduled]>
+2025-04-09 17:37:08,070 INFO - Sending TaskInstanceKey(dag_id='extract_csv_dag', task_id='task_wget', run_id='manual__2025-04-09T17:37:07.154868+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 17:37:08,070 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:37:07.154868+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py']
+2025-04-09 17:37:08,073 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:37:07.154868+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py']
+2025-04-09 17:37:10,104 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_csv_dag', task_id='task_wget', run_id='manual__2025-04-09T17:37:07.154868+00:00', try_number=1, map_index=-1)
+2025-04-09 17:37:10,107 INFO - TaskInstance Finished: dag_id=extract_csv_dag, task_id=task_wget, run_id=manual__2025-04-09T17:37:07.154868+00:00, map_index=-1, run_start_date=2025-04-09 17:37:09.146245+00:00, run_end_date=2025-04-09 17:37:09.857260+00:00, run_duration=0.711015, state=success, executor_state=success, try_number=1, max_tries=0, job_id=15, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-09 17:37:08.069713+00:00, queued_by_job_id=8, pid=20674
+2025-04-09 17:37:10,240 INFO - Marking run <DagRun extract_csv_dag @ 2025-04-09 17:37:07.154868+00:00: manual__2025-04-09T17:37:07.154868+00:00, state:running, queued_at: 2025-04-09 17:37:07.159919+00:00. externally triggered: True> successful
+2025-04-09 17:37:10,241 INFO - DagRun Finished: dag_id=extract_csv_dag, execution_date=2025-04-09 17:37:07.154868+00:00, run_id=manual__2025-04-09T17:37:07.154868+00:00, run_start_date=2025-04-09 17:37:08.053063+00:00, run_end_date=2025-04-09 17:37:10.241237+00:00, run_duration=2.188174, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 17:37:07.154868+00:00, data_interval_end=2025-04-09 17:37:07.154868+00:00, dag_hash=85b5a67e4c5703eb04c21e7b03282585
+2025-04-09 17:38:49,768 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 17:43:49,805 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 17:48:49,843 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 17:53:49,881 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 17:58:49,919 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 18:03:49,958 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 18:08:49,995 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 18:13:50,033 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 18:18:50,071 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:15:43,418 INFO - Starting the scheduler
+2025-04-09 20:15:43,420 INFO - Processing each file at most -1 times
+2025-04-09 20:15:43,424 INFO - Launched DagFileProcessorManager with pid: 18293
+2025-04-09 20:15:43,426 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:15:43,433 INFO - Configured default timezone Timezone('UTC')
+2025-04-09 20:15:43,453 INFO - Marked 1 SchedulerJob instances as failed
+2025-04-09 20:16:50,143 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.task_wget manual__2025-04-09T20:16:49.001386+00:00 [scheduled]>
+2025-04-09 20:16:50,143 INFO - DAG extract_dag has 0/16 running and queued tasks
+2025-04-09 20:16:50,144 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.task_wget manual__2025-04-09T20:16:49.001386+00:00 [scheduled]>
+2025-04-09 20:16:50,145 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='task_wget', run_id='manual__2025-04-09T20:16:49.001386+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:16:50,145 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'task_wget', 'manual__2025-04-09T20:16:49.001386+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2025-04-09 20:16:50,149 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'task_wget', 'manual__2025-04-09T20:16:49.001386+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2025-04-09 20:16:52,605 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_dag', task_id='task_wget', run_id='manual__2025-04-09T20:16:49.001386+00:00', try_number=1, map_index=-1)
+2025-04-09 20:16:52,611 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=task_wget, run_id=manual__2025-04-09T20:16:49.001386+00:00, map_index=-1, run_start_date=2025-04-09 20:16:51.252903+00:00, run_end_date=2025-04-09 20:16:52.377173+00:00, run_duration=1.12427, state=success, executor_state=success, try_number=1, max_tries=0, job_id=17, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-09 20:16:50.144514+00:00, queued_by_job_id=16, pid=18819
+2025-04-09 20:16:52,633 INFO - Marking run <DagRun extract_dag @ 2025-04-09 20:16:49.001386+00:00: manual__2025-04-09T20:16:49.001386+00:00, state:running, queued_at: 2025-04-09 20:16:49.023599+00:00. externally triggered: True> successful
+2025-04-09 20:16:52,634 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2025-04-09 20:16:49.001386+00:00, run_id=manual__2025-04-09T20:16:49.001386+00:00, run_start_date=2025-04-09 20:16:50.119428+00:00, run_end_date=2025-04-09 20:16:52.634376+00:00, run_duration=2.514948, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:16:49.001386+00:00, data_interval_end=2025-04-09 20:16:49.001386+00:00, dag_hash=57549518e2a0e06413b13ebb0b17187e
+2025-04-09 20:17:52,898 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:17:51.525517+00:00 [scheduled]>
+2025-04-09 20:17:52,898 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:17:52,899 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:17:51.525517+00:00 [scheduled]>
+2025-04-09 20:17:52,900 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:17:51.525517+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:17:52,900 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:17:51.525517+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:17:52,903 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:17:51.525517+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:17:54,665 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:17:51.525517+00:00', try_number=1, map_index=-1)
+2025-04-09 20:17:54,668 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:17:51.525517+00:00, map_index=-1, run_start_date=2025-04-09 20:17:54.269939+00:00, run_end_date=2025-04-09 20:17:54.357912+00:00, run_duration=0.087973, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=18, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 20:17:52.899465+00:00, queued_by_job_id=16, pid=19259
+2025-04-09 20:17:54,693 ERROR - Marking run <DagRun transform_dag @ 2025-04-09 20:17:51.525517+00:00: manual__2025-04-09T20:17:51.525517+00:00, state:running, queued_at: 2025-04-09 20:17:51.539341+00:00. externally triggered: True> failed
+2025-04-09 20:17:54,693 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:17:51.525517+00:00, run_id=manual__2025-04-09T20:17:51.525517+00:00, run_start_date=2025-04-09 20:17:52.882842+00:00, run_end_date=2025-04-09 20:17:54.693467+00:00, run_duration=1.810625, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:17:51.525517+00:00, data_interval_end=2025-04-09 20:17:51.525517+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 20:20:43,511 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:25:43,549 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:27:10,520 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:27:09.681054+00:00 [scheduled]>
+2025-04-09 20:27:10,520 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:27:10,520 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:27:09.681054+00:00 [scheduled]>
+2025-04-09 20:27:10,521 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:27:09.681054+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:27:10,522 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:27:09.681054+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:27:10,523 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:27:09.681054+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:27:12,273 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:27:09.681054+00:00', try_number=1, map_index=-1)
+2025-04-09 20:27:12,276 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:27:09.681054+00:00, map_index=-1, run_start_date=2025-04-09 20:27:11.908984+00:00, run_end_date=2025-04-09 20:27:12.000248+00:00, run_duration=0.091264, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=19, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 20:27:10.521082+00:00, queued_by_job_id=16, pid=22642
+2025-04-09 20:27:12,299 ERROR - Marking run <DagRun transform_dag @ 2025-04-09 20:27:09.681054+00:00: manual__2025-04-09T20:27:09.681054+00:00, state:running, queued_at: 2025-04-09 20:27:09.686459+00:00. externally triggered: True> failed
+2025-04-09 20:27:12,299 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:27:09.681054+00:00, run_id=manual__2025-04-09T20:27:09.681054+00:00, run_start_date=2025-04-09 20:27:10.505741+00:00, run_end_date=2025-04-09 20:27:12.299721+00:00, run_duration=1.79398, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:27:09.681054+00:00, data_interval_end=2025-04-09 20:27:09.681054+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 20:30:43,587 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:31:36,259 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:31:35.579503+00:00 [scheduled]>
+2025-04-09 20:31:36,259 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:31:36,260 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:31:35.579503+00:00 [scheduled]>
+2025-04-09 20:31:36,261 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:31:35.579503+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:31:36,261 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:31:35.579503+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:31:36,263 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:31:35.579503+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:31:38,020 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:31:35.579503+00:00', try_number=1, map_index=-1)
+2025-04-09 20:31:38,023 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:31:35.579503+00:00, map_index=-1, run_start_date=2025-04-09 20:31:37.660970+00:00, run_end_date=2025-04-09 20:31:37.746528+00:00, run_duration=0.085558, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=20, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 20:31:36.260438+00:00, queued_by_job_id=16, pid=24356
+2025-04-09 20:31:38,157 ERROR - Marking run <DagRun transform_dag @ 2025-04-09 20:31:35.579503+00:00: manual__2025-04-09T20:31:35.579503+00:00, state:running, queued_at: 2025-04-09 20:31:35.584563+00:00. externally triggered: True> failed
+2025-04-09 20:31:38,157 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:31:35.579503+00:00, run_id=manual__2025-04-09T20:31:35.579503+00:00, run_start_date=2025-04-09 20:31:36.245034+00:00, run_end_date=2025-04-09 20:31:38.157640+00:00, run_duration=1.912606, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:31:35.579503+00:00, data_interval_end=2025-04-09 20:31:35.579503+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 20:32:42,034 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:32:41.715001+00:00 [scheduled]>
+2025-04-09 20:32:42,034 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:32:42,034 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:32:41.715001+00:00 [scheduled]>
+2025-04-09 20:32:42,035 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:32:41.715001+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:32:42,036 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:32:41.715001+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:32:42,038 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:32:41.715001+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:32:43,679 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:32:41.715001+00:00', try_number=1, map_index=-1)
+2025-04-09 20:32:43,682 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:32:41.715001+00:00, map_index=-1, run_start_date=2025-04-09 20:32:43.310859+00:00, run_end_date=2025-04-09 20:32:43.408132+00:00, run_duration=0.097273, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=21, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 20:32:42.035094+00:00, queued_by_job_id=16, pid=24735
+2025-04-09 20:32:43,706 ERROR - Marking run <DagRun transform_dag @ 2025-04-09 20:32:41.715001+00:00: manual__2025-04-09T20:32:41.715001+00:00, state:running, queued_at: 2025-04-09 20:32:41.720138+00:00. externally triggered: True> failed
+2025-04-09 20:32:43,706 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:32:41.715001+00:00, run_id=manual__2025-04-09T20:32:41.715001+00:00, run_start_date=2025-04-09 20:32:42.018134+00:00, run_end_date=2025-04-09 20:32:43.706768+00:00, run_duration=1.688634, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:32:41.715001+00:00, data_interval_end=2025-04-09 20:32:41.715001+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 20:33:55,413 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:33:54.497747+00:00 [scheduled]>
+2025-04-09 20:33:55,414 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:33:55,414 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:33:54.497747+00:00 [scheduled]>
+2025-04-09 20:33:55,415 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:33:54.497747+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:33:55,415 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:33:54.497747+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:33:55,418 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:33:54.497747+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:33:57,165 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:33:54.497747+00:00', try_number=1, map_index=-1)
+2025-04-09 20:33:57,168 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:33:54.497747+00:00, map_index=-1, run_start_date=2025-04-09 20:33:56.772943+00:00, run_end_date=2025-04-09 20:33:56.856194+00:00, run_duration=0.083251, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=22, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 20:33:55.414608+00:00, queued_by_job_id=16, pid=25192
+2025-04-09 20:33:57,191 ERROR - Marking run <DagRun transform_dag @ 2025-04-09 20:33:54.497747+00:00: manual__2025-04-09T20:33:54.497747+00:00, state:running, queued_at: 2025-04-09 20:33:54.502799+00:00. externally triggered: True> failed
+2025-04-09 20:33:57,191 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:33:54.497747+00:00, run_id=manual__2025-04-09T20:33:54.497747+00:00, run_start_date=2025-04-09 20:33:55.398096+00:00, run_end_date=2025-04-09 20:33:57.191549+00:00, run_duration=1.793453, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:33:54.497747+00:00, data_interval_end=2025-04-09 20:33:54.497747+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 20:34:43,010 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:34:41.713100+00:00 [scheduled]>
+2025-04-09 20:34:43,011 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:34:43,011 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:34:41.713100+00:00 [scheduled]>
+2025-04-09 20:34:43,012 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:34:41.713100+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:34:43,012 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:34:41.713100+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:34:43,015 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:34:41.713100+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:34:44,691 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:34:41.713100+00:00', try_number=1, map_index=-1)
+2025-04-09 20:34:44,696 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:34:41.713100+00:00, map_index=-1, run_start_date=2025-04-09 20:34:44.330830+00:00, run_end_date=2025-04-09 20:34:44.416011+00:00, run_duration=0.085181, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=23, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 20:34:43.011771+00:00, queued_by_job_id=16, pid=25466
+2025-04-09 20:34:44,724 ERROR - Marking run <DagRun transform_dag @ 2025-04-09 20:34:41.713100+00:00: manual__2025-04-09T20:34:41.713100+00:00, state:running, queued_at: 2025-04-09 20:34:41.720990+00:00. externally triggered: True> failed
+2025-04-09 20:34:44,724 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:34:41.713100+00:00, run_id=manual__2025-04-09T20:34:41.713100+00:00, run_start_date=2025-04-09 20:34:42.995187+00:00, run_end_date=2025-04-09 20:34:44.724373+00:00, run_duration=1.729186, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:34:41.713100+00:00, data_interval_end=2025-04-09 20:34:41.713100+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 20:35:43,601 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:36:33,446 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:36:32.955469+00:00 [scheduled]>
+2025-04-09 20:36:33,447 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:36:33,447 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:36:32.955469+00:00 [scheduled]>
+2025-04-09 20:36:33,448 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:36:32.955469+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:36:33,448 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:36:32.955469+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:36:33,452 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:36:32.955469+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:36:35,347 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:36:32.955469+00:00', try_number=1, map_index=-1)
+2025-04-09 20:36:35,350 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:36:32.955469+00:00, map_index=-1, run_start_date=2025-04-09 20:36:34.991832+00:00, run_end_date=2025-04-09 20:36:35.079765+00:00, run_duration=0.087933, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=24, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 20:36:33.447742+00:00, queued_by_job_id=16, pid=26157
+2025-04-09 20:36:35,376 ERROR - Marking run <DagRun transform_dag @ 2025-04-09 20:36:32.955469+00:00: manual__2025-04-09T20:36:32.955469+00:00, state:running, queued_at: 2025-04-09 20:36:32.960525+00:00. externally triggered: True> failed
+2025-04-09 20:36:35,376 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:36:32.955469+00:00, run_id=manual__2025-04-09T20:36:32.955469+00:00, run_start_date=2025-04-09 20:36:33.402502+00:00, run_end_date=2025-04-09 20:36:35.376631+00:00, run_duration=1.974129, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:36:32.955469+00:00, data_interval_end=2025-04-09 20:36:32.955469+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 20:40:43,640 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:43:12,664 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:43:11.039451+00:00 [scheduled]>
+2025-04-09 20:43:12,664 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:43:12,664 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:43:11.039451+00:00 [scheduled]>
+2025-04-09 20:43:12,665 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:43:11.039451+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:43:12,665 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:43:11.039451+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:43:12,668 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:43:11.039451+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:43:14,381 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:43:11.039451+00:00', try_number=1, map_index=-1)
+2025-04-09 20:43:14,384 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:43:11.039451+00:00, map_index=-1, run_start_date=2025-04-09 20:43:13.991102+00:00, run_end_date=2025-04-09 20:43:14.075488+00:00, run_duration=0.084386, state=success, executor_state=success, try_number=1, max_tries=0, job_id=25, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 20:43:12.664855+00:00, queued_by_job_id=16, pid=29296
+2025-04-09 20:43:14,518 INFO - Marking run <DagRun transform_dag @ 2025-04-09 20:43:11.039451+00:00: manual__2025-04-09T20:43:11.039451+00:00, state:running, queued_at: 2025-04-09 20:43:11.051490+00:00. externally triggered: True> successful
+2025-04-09 20:43:14,519 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:43:11.039451+00:00, run_id=manual__2025-04-09T20:43:11.039451+00:00, run_start_date=2025-04-09 20:43:12.648421+00:00, run_end_date=2025-04-09 20:43:14.518973+00:00, run_duration=1.870552, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:43:11.039451+00:00, data_interval_end=2025-04-09 20:43:11.039451+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 20:45:43,679 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:46:57,659 INFO - 2 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:46:56.783559+00:00 [scheduled]>
+	<TaskInstance: transform_dag.echo_task manual__2025-04-09T20:46:56.783559+00:00 [scheduled]>
+2025-04-09 20:46:57,659 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:46:57,659 INFO - DAG transform_dag has 1/16 running and queued tasks
+2025-04-09 20:46:57,659 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:46:56.783559+00:00 [scheduled]>
+	<TaskInstance: transform_dag.echo_task manual__2025-04-09T20:46:56.783559+00:00 [scheduled]>
+2025-04-09 20:46:57,660 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:46:56.783559+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:46:57,661 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:46:56.783559+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:46:57,661 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='echo_task', run_id='manual__2025-04-09T20:46:56.783559+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:46:57,661 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'echo_task', 'manual__2025-04-09T20:46:56.783559+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:46:57,664 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:46:56.783559+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:46:59,382 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'echo_task', 'manual__2025-04-09T20:46:56.783559+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:47:01,128 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:46:56.783559+00:00', try_number=1, map_index=-1)
+2025-04-09 20:47:01,129 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='echo_task', run_id='manual__2025-04-09T20:46:56.783559+00:00', try_number=1, map_index=-1)
+2025-04-09 20:47:01,132 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=echo_task, run_id=manual__2025-04-09T20:46:56.783559+00:00, map_index=-1, run_start_date=2025-04-09 20:47:00.687765+00:00, run_end_date=2025-04-09 20:47:00.791912+00:00, run_duration=0.104147, state=success, executor_state=success, try_number=1, max_tries=0, job_id=27, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-09 20:46:57.660137+00:00, queued_by_job_id=16, pid=30758
+2025-04-09 20:47:01,132 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:46:56.783559+00:00, map_index=-1, run_start_date=2025-04-09 20:46:59.018600+00:00, run_end_date=2025-04-09 20:46:59.106980+00:00, run_duration=0.08838, state=success, executor_state=success, try_number=1, max_tries=0, job_id=26, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2025-04-09 20:46:57.660137+00:00, queued_by_job_id=16, pid=30753
+2025-04-09 20:47:01,161 INFO - Marking run <DagRun transform_dag @ 2025-04-09 20:46:56.783559+00:00: manual__2025-04-09T20:46:56.783559+00:00, state:running, queued_at: 2025-04-09 20:46:56.789564+00:00. externally triggered: True> successful
+2025-04-09 20:47:01,162 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:46:56.783559+00:00, run_id=manual__2025-04-09T20:46:56.783559+00:00, run_start_date=2025-04-09 20:46:57.642876+00:00, run_end_date=2025-04-09 20:47:01.162042+00:00, run_duration=3.519166, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:46:56.783559+00:00, data_interval_end=2025-04-09 20:46:56.783559+00:00, dag_hash=0c93e02f07d545998a0d878f4f6b42b7
+2025-04-09 20:50:43,718 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:55:43,758 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 20:57:52,122 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:57:51.021514+00:00 [scheduled]>
+2025-04-09 20:57:52,122 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:57:52,122 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:57:51.021514+00:00 [scheduled]>
+2025-04-09 20:57:52,123 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:57:51.021514+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2025-04-09 20:57:52,123 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:57:51.021514+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:57:52,126 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:57:51.021514+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:57:53,968 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:57:51.021514+00:00', try_number=1, map_index=-1)
+2025-04-09 20:57:53,971 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:57:51.021514+00:00, map_index=-1, run_start_date=2025-04-09 20:57:53.592704+00:00, run_end_date=2025-04-09 20:57:53.681795+00:00, run_duration=0.089091, state=success, executor_state=success, try_number=1, max_tries=0, job_id=28, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2025-04-09 20:57:52.122882+00:00, queued_by_job_id=16, pid=34993
+2025-04-09 20:57:54,005 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.echo_task manual__2025-04-09T20:57:51.021514+00:00 [scheduled]>
+2025-04-09 20:57:54,006 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:57:54,006 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.echo_task manual__2025-04-09T20:57:51.021514+00:00 [scheduled]>
+2025-04-09 20:57:54,007 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='echo_task', run_id='manual__2025-04-09T20:57:51.021514+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:57:54,007 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'echo_task', 'manual__2025-04-09T20:57:51.021514+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:57:54,010 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'echo_task', 'manual__2025-04-09T20:57:51.021514+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:57:55,786 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='echo_task', run_id='manual__2025-04-09T20:57:51.021514+00:00', try_number=1, map_index=-1)
+2025-04-09 20:57:55,789 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=echo_task, run_id=manual__2025-04-09T20:57:51.021514+00:00, map_index=-1, run_start_date=2025-04-09 20:57:55.358942+00:00, run_end_date=2025-04-09 20:57:55.481038+00:00, run_duration=0.122096, state=success, executor_state=success, try_number=1, max_tries=0, job_id=29, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-09 20:57:54.006703+00:00, queued_by_job_id=16, pid=35004
+2025-04-09 20:57:55,814 INFO - Marking run <DagRun transform_dag @ 2025-04-09 20:57:51.021514+00:00: manual__2025-04-09T20:57:51.021514+00:00, state:running, queued_at: 2025-04-09 20:57:51.026492+00:00. externally triggered: True> successful
+2025-04-09 20:57:55,814 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:57:51.021514+00:00, run_id=manual__2025-04-09T20:57:51.021514+00:00, run_start_date=2025-04-09 20:57:52.103502+00:00, run_end_date=2025-04-09 20:57:55.814921+00:00, run_duration=3.711419, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:57:51.021514+00:00, data_interval_end=2025-04-09 20:57:51.021514+00:00, dag_hash=d266f556a94f150d728e5550d2c31413
+2025-04-09 20:59:33,076 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:59:32.407693+00:00 [scheduled]>
+2025-04-09 20:59:33,077 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 20:59:33,077 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T20:59:32.407693+00:00 [scheduled]>
+2025-04-09 20:59:33,078 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:59:32.407693+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 20:59:33,078 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:59:32.407693+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:59:33,082 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T20:59:32.407693+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 20:59:34,906 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T20:59:32.407693+00:00', try_number=1, map_index=-1)
+2025-04-09 20:59:34,909 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T20:59:32.407693+00:00, map_index=-1, run_start_date=2025-04-09 20:59:34.501411+00:00, run_end_date=2025-04-09 20:59:34.605725+00:00, run_duration=0.104314, state=success, executor_state=success, try_number=1, max_tries=0, job_id=30, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 20:59:33.077703+00:00, queued_by_job_id=16, pid=35637
+2025-04-09 20:59:35,043 INFO - Marking run <DagRun transform_dag @ 2025-04-09 20:59:32.407693+00:00: manual__2025-04-09T20:59:32.407693+00:00, state:running, queued_at: 2025-04-09 20:59:32.413558+00:00. externally triggered: True> successful
+2025-04-09 20:59:35,043 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 20:59:32.407693+00:00, run_id=manual__2025-04-09T20:59:32.407693+00:00, run_start_date=2025-04-09 20:59:33.059779+00:00, run_end_date=2025-04-09 20:59:35.043633+00:00, run_duration=1.983854, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 20:59:32.407693+00:00, data_interval_end=2025-04-09 20:59:32.407693+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 21:00:43,796 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:00:52,698 INFO - 1 tasks up for execution:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T21:00:51.253766+00:00 [scheduled]>
+2025-04-09 21:00:52,698 INFO - DAG transform_dag has 0/16 running and queued tasks
+2025-04-09 21:00:52,698 INFO - Setting the following tasks to queued state:
+	<TaskInstance: transform_dag.transform_task manual__2025-04-09T21:00:51.253766+00:00 [scheduled]>
+2025-04-09 21:00:52,699 INFO - Sending TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T21:00:51.253766+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 21:00:52,699 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T21:00:51.253766+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 21:00:52,702 INFO - Executing command: ['airflow', 'tasks', 'run', 'transform_dag', 'transform_task', 'manual__2025-04-09T21:00:51.253766+00:00', '--local', '--subdir', 'DAGS_FOLDER/transform_dag.py']
+2025-04-09 21:00:54,362 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='transform_dag', task_id='transform_task', run_id='manual__2025-04-09T21:00:51.253766+00:00', try_number=1, map_index=-1)
+2025-04-09 21:00:54,365 INFO - TaskInstance Finished: dag_id=transform_dag, task_id=transform_task, run_id=manual__2025-04-09T21:00:51.253766+00:00, map_index=-1, run_start_date=2025-04-09 21:00:54.002341+00:00, run_end_date=2025-04-09 21:00:54.100917+00:00, run_duration=0.098576, state=success, executor_state=success, try_number=1, max_tries=0, job_id=31, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-04-09 21:00:52.698977+00:00, queued_by_job_id=16, pid=36258
+2025-04-09 21:00:54,387 INFO - Marking run <DagRun transform_dag @ 2025-04-09 21:00:51.253766+00:00: manual__2025-04-09T21:00:51.253766+00:00, state:running, queued_at: 2025-04-09 21:00:51.258785+00:00. externally triggered: True> successful
+2025-04-09 21:00:54,388 INFO - DagRun Finished: dag_id=transform_dag, execution_date=2025-04-09 21:00:51.253766+00:00, run_id=manual__2025-04-09T21:00:51.253766+00:00, run_start_date=2025-04-09 21:00:52.676058+00:00, run_end_date=2025-04-09 21:00:54.388188+00:00, run_duration=1.71213, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 21:00:51.253766+00:00, data_interval_end=2025-04-09 21:00:51.253766+00:00, dag_hash=79e6c406841ffd4864cb08ce7d0e6860
+2025-04-09 21:05:43,833 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:10:43,872 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:15:44,015 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:20:44,054 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:25:44,093 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:30:44,131 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:35:44,176 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:40:44,214 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:45:44,251 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:49:52,813 INFO - 1 tasks up for execution:
+	<TaskInstance: load_dag.load_task manual__2025-04-09T21:49:51.718649+00:00 [scheduled]>
+2025-04-09 21:49:52,813 INFO - DAG load_dag has 0/16 running and queued tasks
+2025-04-09 21:49:52,814 INFO - Setting the following tasks to queued state:
+	<TaskInstance: load_dag.load_task manual__2025-04-09T21:49:51.718649+00:00 [scheduled]>
+2025-04-09 21:49:52,817 INFO - Sending TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2025-04-09T21:49:51.718649+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 21:49:52,817 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2025-04-09T21:49:51.718649+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py']
+2025-04-09 21:49:52,820 INFO - Executing command: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2025-04-09T21:49:51.718649+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py']
+2025-04-09 21:49:54,194 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2025-04-09T21:49:51.718649+00:00', try_number=1, map_index=-1)
+2025-04-09 21:49:54,197 INFO - TaskInstance Finished: dag_id=load_dag, task_id=load_task, run_id=manual__2025-04-09T21:49:51.718649+00:00, map_index=-1, run_start_date=2025-04-09 21:49:53.869347+00:00, run_end_date=2025-04-09 21:49:53.968003+00:00, run_duration=0.098656, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=32, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-09 21:49:52.814553+00:00, queued_by_job_id=16, pid=56445
+2025-04-09 21:49:54,219 ERROR - Marking run <DagRun load_dag @ 2025-04-09 21:49:51.718649+00:00: manual__2025-04-09T21:49:51.718649+00:00, state:running, queued_at: 2025-04-09 21:49:51.729415+00:00. externally triggered: True> failed
+2025-04-09 21:49:54,220 INFO - DagRun Finished: dag_id=load_dag, execution_date=2025-04-09 21:49:51.718649+00:00, run_id=manual__2025-04-09T21:49:51.718649+00:00, run_start_date=2025-04-09 21:49:52.788436+00:00, run_end_date=2025-04-09 21:49:54.220204+00:00, run_duration=1.431768, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 21:49:51.718649+00:00, data_interval_end=2025-04-09 21:49:51.718649+00:00, dag_hash=e9e3ffa3b0ca1e68b1bacdb55efe0ac7
+2025-04-09 21:50:44,312 INFO - Resetting orphaned tasks for active dag runs
+2025-04-09 21:51:57,549 INFO - 1 tasks up for execution:
+	<TaskInstance: load_dag.load_task manual__2025-04-09T21:51:56.126597+00:00 [scheduled]>
+2025-04-09 21:51:57,549 INFO - DAG load_dag has 0/16 running and queued tasks
+2025-04-09 21:51:57,550 INFO - Setting the following tasks to queued state:
+	<TaskInstance: load_dag.load_task manual__2025-04-09T21:51:56.126597+00:00 [scheduled]>
+2025-04-09 21:51:57,551 INFO - Sending TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2025-04-09T21:51:56.126597+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-09 21:51:57,551 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2025-04-09T21:51:56.126597+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py']
+2025-04-09 21:51:57,554 INFO - Executing command: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2025-04-09T21:51:56.126597+00:00', '--local', '--subdir', 'DAGS_FOLDER/load_dag.py']
+2025-04-09 21:51:58,955 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='load_dag', task_id='load_task', run_id='manual__2025-04-09T21:51:56.126597+00:00', try_number=1, map_index=-1)
+2025-04-09 21:51:58,958 INFO - TaskInstance Finished: dag_id=load_dag, task_id=load_task, run_id=manual__2025-04-09T21:51:56.126597+00:00, map_index=-1, run_start_date=2025-04-09 21:51:58.602436+00:00, run_end_date=2025-04-09 21:51:58.707714+00:00, run_duration=0.105278, state=success, executor_state=success, try_number=1, max_tries=0, job_id=33, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-09 21:51:57.550414+00:00, queued_by_job_id=16, pid=57196
+2025-04-09 21:51:58,990 INFO - Marking run <DagRun load_dag @ 2025-04-09 21:51:56.126597+00:00: manual__2025-04-09T21:51:56.126597+00:00, state:running, queued_at: 2025-04-09 21:51:56.132465+00:00. externally triggered: True> successful
+2025-04-09 21:51:58,990 INFO - DagRun Finished: dag_id=load_dag, execution_date=2025-04-09 21:51:56.126597+00:00, run_id=manual__2025-04-09T21:51:56.126597+00:00, run_start_date=2025-04-09 21:51:57.535032+00:00, run_end_date=2025-04-09 21:51:58.990578+00:00, run_duration=1.455546, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-09 21:51:56.126597+00:00, data_interval_end=2025-04-09 21:51:56.126597+00:00, dag_hash=ddec01795ed2c7b55373882bc3ccee9a
+2025-04-09 21:55:44,471 INFO - Resetting orphaned tasks for active dag runs

@@ -1,0 +1,39 @@
+[2025-04-09T17:37:09.146+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:37:07.154868+00:00 [queued]>
+[2025-04-09T17:37:09.150+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:37:07.154868+00:00 [queued]>
+[2025-04-09T17:37:09.150+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-04-09T17:37:09.159+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): task_wget> on 2025-04-09 17:37:07.154868+00:00
+[2025-04-09T17:37:09.162+0000] {standard_task_runner.py:57} INFO - Started process 20674 to run task
+[2025-04-09T17:37:09.165+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:37:07.154868+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py', '--cfg-path', '/tmp/tmp390f3sf_']
+[2025-04-09T17:37:09.165+0000] {standard_task_runner.py:85} INFO - Job 15: Subtask task_wget
+[2025-04-09T17:37:09.189+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:37:07.154868+00:00 [running]> on host codespaces-6b480a
+[2025-04-09T17:37:09.228+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='logan' AIRFLOW_CTX_DAG_ID='extract_csv_dag' AIRFLOW_CTX_TASK_ID='task_wget' AIRFLOW_CTX_EXECUTION_DATE='2025-04-09T17:37:07.154868+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-09T17:37:07.154868+00:00'
+[2025-04-09T17:37:09.228+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-04-09T17:37:09.229+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo pwd=$PWD && echo airflow_home=$AIRFLOW_HOME && wget -c https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv -O $AIRFLOW_HOME/../lab/manual/top_level_domain_$(date +%Y%m%d%H%M%S).csv']
+[2025-04-09T17:37:09.234+0000] {subprocess.py:86} INFO - Output:
+[2025-04-09T17:37:09.235+0000] {subprocess.py:93} INFO - pwd=/tmp/airflowtmpyvh9a6ki
+[2025-04-09T17:37:09.235+0000] {subprocess.py:93} INFO - airflow_home=/workspaces/hands-on-introduction-data-engineering-4395021/airflow
+[2025-04-09T17:37:09.238+0000] {subprocess.py:93} INFO - --2025-04-09 17:37:09--  https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv
+[2025-04-09T17:37:09.247+0000] {subprocess.py:93} INFO - Resolving datahub.io (datahub.io)... 172.67.157.38, 104.21.40.221, 2606:4700:3030::ac43:9d26, ...
+[2025-04-09T17:37:09.254+0000] {subprocess.py:93} INFO - Connecting to datahub.io (datahub.io)|172.67.157.38|:443... connected.
+[2025-04-09T17:37:09.515+0000] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 301 Moved Permanently
+[2025-04-09T17:37:09.516+0000] {subprocess.py:93} INFO - Location: https://datahub.io/core/top-level-domain-names/_r/-/data/top-level-domain-names.csv [following]
+[2025-04-09T17:37:09.516+0000] {subprocess.py:93} INFO - --2025-04-09 17:37:09--  https://datahub.io/core/top-level-domain-names/_r/-/data/top-level-domain-names.csv
+[2025-04-09T17:37:09.516+0000] {subprocess.py:93} INFO - Reusing existing connection to datahub.io:443.
+[2025-04-09T17:37:09.692+0000] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 302 Found
+[2025-04-09T17:37:09.692+0000] {subprocess.py:93} INFO - Location: https://r2.datahub.io/clt98mhbp000nl708qb1tppbw/main/raw/data/top-level-domain-names.csv [following]
+[2025-04-09T17:37:09.692+0000] {subprocess.py:93} INFO - --2025-04-09 17:37:09--  https://r2.datahub.io/clt98mhbp000nl708qb1tppbw/main/raw/data/top-level-domain-names.csv
+[2025-04-09T17:37:09.692+0000] {subprocess.py:93} INFO - Resolving r2.datahub.io (r2.datahub.io)... 172.67.157.38, 104.21.40.221, 2606:4700:3033::6815:28dd, ...
+[2025-04-09T17:37:09.694+0000] {subprocess.py:93} INFO - Connecting to r2.datahub.io (r2.datahub.io)|172.67.157.38|:443... connected.
+[2025-04-09T17:37:09.841+0000] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 200 OK
+[2025-04-09T17:37:09.842+0000] {subprocess.py:93} INFO - Length: 71040 (69K) [text/csv]
+[2025-04-09T17:37:09.842+0000] {subprocess.py:93} INFO - Saving to: ‘/workspaces/hands-on-introduction-data-engineering-4395021/airflow/../lab/manual/top_level_domain_20250409173709.csv’
+[2025-04-09T17:37:09.842+0000] {subprocess.py:93} INFO - 
+[2025-04-09T17:37:09.842+0000] {subprocess.py:93} INFO -      0K .......... .......... .......... .......... .......... 72%  108M 0s
+[2025-04-09T17:37:09.843+0000] {subprocess.py:93} INFO -     50K .......... .........                                  100% 15.3M=0.002s
+[2025-04-09T17:37:09.843+0000] {subprocess.py:93} INFO - 
+[2025-04-09T17:37:09.843+0000] {subprocess.py:93} INFO - 2025-04-09 17:37:09 (40.1 MB/s) - ‘/workspaces/hands-on-introduction-data-engineering-4395021/airflow/../lab/manual/top_level_domain_20250409173709.csv’ saved [71040/71040]
+[2025-04-09T17:37:09.843+0000] {subprocess.py:93} INFO - 
+[2025-04-09T17:37:09.844+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-04-09T17:37:09.857+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=extract_csv_dag, task_id=task_wget, execution_date=20250409T173707, start_date=20250409T173709, end_date=20250409T173709
+[2025-04-09T17:37:09.901+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-04-09T17:37:09.908+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

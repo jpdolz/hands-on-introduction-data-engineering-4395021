@@ -13,13 +13,13 @@ default_args = {
 }
 
 with DAG(
-    dag_id='extract_csv_dag',
+    dag_id='extract_dag',
     description='DAG to download CSV file from INET',
     schedule=None,
     default_args=default_args,
 ) as dag:
     task_wget = BashOperator(
         task_id='task_wget',
-        bash_command='echo $PWD && wget -c https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv -O lab/manual/top_level_domain_$(date +%Y%m%d%H%M%S).csv',
+        bash_command='wget -c https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv -O $AIRFLOW_HOME/../lab/orchestrated/airflow_extract_data.csv',
         dag=dag
     )

@@ -1,0 +1,24 @@
+[2025-04-09T17:29:33.155+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:29:31.168221+00:00 [queued]>
+[2025-04-09T17:29:33.159+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:29:31.168221+00:00 [queued]>
+[2025-04-09T17:29:33.160+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-04-09T17:29:33.171+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): task_wget> on 2025-04-09 17:29:31.168221+00:00
+[2025-04-09T17:29:33.174+0000] {standard_task_runner.py:57} INFO - Started process 17819 to run task
+[2025-04-09T17:29:33.177+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'extract_csv_dag', 'task_wget', 'manual__2025-04-09T17:29:31.168221+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/extract_csv_dag.py', '--cfg-path', '/tmp/tmpput8_h8x']
+[2025-04-09T17:29:33.177+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask task_wget
+[2025-04-09T17:29:33.218+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_csv_dag.task_wget manual__2025-04-09T17:29:31.168221+00:00 [running]> on host codespaces-6b480a
+[2025-04-09T17:29:33.259+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='logan' AIRFLOW_CTX_DAG_ID='extract_csv_dag' AIRFLOW_CTX_TASK_ID='task_wget' AIRFLOW_CTX_EXECUTION_DATE='2025-04-09T17:29:31.168221+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-09T17:29:31.168221+00:00'
+[2025-04-09T17:29:33.260+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-04-09T17:29:33.260+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo $PWD && wget -c https://datahub.io/core/top-level-domain-names/r/top-level-domain-names.csv.csv -O lab/manual/top_level_domain_$(date +%Y%m%d%H%M%S).csv']
+[2025-04-09T17:29:33.265+0000] {subprocess.py:86} INFO - Output:
+[2025-04-09T17:29:33.266+0000] {subprocess.py:93} INFO - /tmp/airflowtmpxukdoe4_
+[2025-04-09T17:29:33.269+0000] {subprocess.py:93} INFO - lab/manual/top_level_domain_20250409172933.csv: No such file or directory
+[2025-04-09T17:29:33.269+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-04-09T17:29:33.273+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-04-09T17:29:33.275+0000] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=extract_csv_dag, task_id=task_wget, execution_date=20250409T172931, start_date=20250409T172933, end_date=20250409T172933
+[2025-04-09T17:29:33.283+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 12 for task task_wget (Bash command failed. The command returned a non-zero exit code 1.; 17819)
+[2025-04-09T17:29:33.315+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-04-09T17:29:33.323+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2025-04-09T21:49:53.869+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_dag.load_task manual__2025-04-09T21:49:51.718649+00:00 [queued]>
+[2025-04-09T21:49:53.873+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_dag.load_task manual__2025-04-09T21:49:51.718649+00:00 [queued]>
+[2025-04-09T21:49:53.873+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-04-09T21:49:53.882+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): load_task> on 2025-04-09 21:49:51.718649+00:00
+[2025-04-09T21:49:53.885+0000] {standard_task_runner.py:57} INFO - Started process 56445 to run task
+[2025-04-09T21:49:53.888+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'load_dag', 'load_task', 'manual__2025-04-09T21:49:51.718649+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/load_dag.py', '--cfg-path', '/tmp/tmpwzbrdunb']
+[2025-04-09T21:49:53.889+0000] {standard_task_runner.py:85} INFO - Job 32: Subtask load_task
+[2025-04-09T21:49:53.917+0000] {task_command.py:410} INFO - Running <TaskInstance: load_dag.load_task manual__2025-04-09T21:49:51.718649+00:00 [running]> on host codespaces-6b480a
+[2025-04-09T21:49:53.955+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='logan' AIRFLOW_CTX_DAG_ID='load_dag' AIRFLOW_CTX_TASK_ID='load_task' AIRFLOW_CTX_EXECUTION_DATE='2025-04-09T21:49:51.718649+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-09T21:49:51.718649+00:00'
+[2025-04-09T21:49:53.955+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-04-09T21:49:53.956+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        echo -e ".mode csv \n.import --skip 1 $AIRFLOW_HOME/../lab/orchestrated/airflow_transform_data.csv top_level_domains" \n        | sqlite3 $AIRFLOW_HOME/../lab/orchestrated/airflow-load-db.db\n        ']
+[2025-04-09T21:49:53.961+0000] {subprocess.py:86} INFO - Output:
+[2025-04-09T21:49:53.962+0000] {subprocess.py:93} INFO - .mode csv
+[2025-04-09T21:49:53.962+0000] {subprocess.py:93} INFO - .import --skip 1 /workspaces/hands-on-introduction-data-engineering-4395021/airflow/../lab/orchestrated/airflow_transform_data.csv top_level_domains
+[2025-04-09T21:49:53.962+0000] {subprocess.py:93} INFO - /usr/bin/bash: -c: line 4: syntax error near unexpected token `|'
+[2025-04-09T21:49:53.962+0000] {subprocess.py:93} INFO - /usr/bin/bash: -c: line 4: `        | sqlite3 $AIRFLOW_HOME/../lab/orchestrated/airflow-load-db.db'
+[2025-04-09T21:49:53.962+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-04-09T21:49:53.966+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-04-09T21:49:53.968+0000] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=load_dag, task_id=load_task, execution_date=20250409T214951, start_date=20250409T214953, end_date=20250409T214953
+[2025-04-09T21:49:53.976+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 32 for task load_task (Bash command failed. The command returned a non-zero exit code 2.; 56445)
+[2025-04-09T21:49:53.981+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-04-09T21:49:53.989+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
