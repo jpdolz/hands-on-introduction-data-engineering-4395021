@@ -971,3 +971,38 @@ SyntaxError: unterminated string literal (detected at line 24)
 [2025-04-09T17:25:27.291+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:25:27.291+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2025-04-09T17:25:27.305+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:25:27.305+0000] {dag.py:3504} INFO - Setting next_dagrun for extract_csv_dag to None, run_after=None
 [2025-04-09T17:25:27.320+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py took 0.047 seconds
+[2025-04-09T17:25:58.355+0000] {processor.py:157} INFO - Started process (PID=15917) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:25:58.356+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py for tasks to queue
+[2025-04-09T17:25:58.356+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:25:58.356+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:25:58.364+0000] {processor.py:836} INFO - DAG(s) dict_keys(['extract_csv_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:25:58.435+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:25:58.435+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-09T17:25:58.448+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:25:58.448+0000] {dag.py:3504} INFO - Setting next_dagrun for extract_csv_dag to None, run_after=None
+[2025-04-09T17:25:58.463+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py took 0.110 seconds
+[2025-04-09T17:26:28.649+0000] {processor.py:157} INFO - Started process (PID=16245) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:26:28.650+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py for tasks to queue
+[2025-04-09T17:26:28.650+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:26:28.650+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:26:28.657+0000] {processor.py:836} INFO - DAG(s) dict_keys(['extract_csv_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:26:28.675+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:26:28.675+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-09T17:26:28.689+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:26:28.689+0000] {dag.py:3504} INFO - Setting next_dagrun for extract_csv_dag to None, run_after=None
+[2025-04-09T17:26:28.702+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py took 0.056 seconds
+[2025-04-09T17:26:58.837+0000] {processor.py:157} INFO - Started process (PID=16445) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:26:58.837+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py for tasks to queue
+[2025-04-09T17:26:58.838+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:26:58.838+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:26:58.845+0000] {processor.py:836} INFO - DAG(s) dict_keys(['extract_csv_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:26:58.863+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:26:58.863+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-09T17:26:58.877+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:26:58.877+0000] {dag.py:3504} INFO - Setting next_dagrun for extract_csv_dag to None, run_after=None
+[2025-04-09T17:26:58.891+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py took 0.056 seconds
+[2025-04-09T17:27:29.024+0000] {processor.py:157} INFO - Started process (PID=16626) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:27:29.025+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py for tasks to queue
+[2025-04-09T17:27:29.026+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:27:29.026+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:27:29.033+0000] {processor.py:836} INFO - DAG(s) dict_keys(['extract_csv_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:27:29.050+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:27:29.050+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-09T17:27:29.064+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:27:29.063+0000] {dag.py:3504} INFO - Setting next_dagrun for extract_csv_dag to None, run_after=None
+[2025-04-09T17:27:29.077+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py took 0.055 seconds
+[2025-04-09T17:27:59.214+0000] {processor.py:157} INFO - Started process (PID=16797) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:27:59.215+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py for tasks to queue
+[2025-04-09T17:27:59.216+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:27:59.215+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:27:59.223+0000] {processor.py:836} INFO - DAG(s) dict_keys(['extract_csv_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py
+[2025-04-09T17:27:59.240+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:27:59.240+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-09T17:27:59.253+0000] {logging_mixin.py:150} INFO - [2025-04-09T17:27:59.253+0000] {dag.py:3504} INFO - Setting next_dagrun for extract_csv_dag to None, run_after=None
+[2025-04-09T17:27:59.267+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_csv_dag.py took 0.056 seconds
