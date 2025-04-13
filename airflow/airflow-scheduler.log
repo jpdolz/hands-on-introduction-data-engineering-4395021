@@ -505,3 +505,89 @@
 2025-04-09 23:20:46,095 INFO - Resetting orphaned tasks for active dag runs
 2025-04-09 23:25:46,134 INFO - Resetting orphaned tasks for active dag runs
 2025-04-09 23:30:46,148 INFO - Resetting orphaned tasks for active dag runs
+2025-04-10 18:49:18,550 INFO - Starting the scheduler
+2025-04-10 18:49:18,550 INFO - Processing each file at most -1 times
+2025-04-10 18:49:18,555 INFO - Launched DagFileProcessorManager with pid: 19664
+2025-04-10 18:49:18,557 INFO - Resetting orphaned tasks for active dag runs
+2025-04-10 18:49:18,560 INFO - Configured default timezone Timezone('UTC')
+2025-04-10 18:49:18,575 INFO - Marked 1 SchedulerJob instances as failed
+2025-04-10 18:49:21,899 INFO - Setting next_dagrun for etl_dag to 2025-04-10T00:00:00+00:00, run_after=2025-04-11T00:00:00+00:00
+2025-04-10 18:49:21,936 INFO - 1 tasks up for execution:
+	<TaskInstance: etl_dag.extract_task scheduled__2025-04-09T00:00:00+00:00 [scheduled]>
+2025-04-10 18:49:21,936 INFO - DAG etl_dag has 0/16 running and queued tasks
+2025-04-10 18:49:21,936 INFO - Setting the following tasks to queued state:
+	<TaskInstance: etl_dag.extract_task scheduled__2025-04-09T00:00:00+00:00 [scheduled]>
+2025-04-10 18:49:21,938 INFO - Sending TaskInstanceKey(dag_id='etl_dag', task_id='extract_task', run_id='scheduled__2025-04-09T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2025-04-10 18:49:21,938 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'etl_dag', 'extract_task', 'scheduled__2025-04-09T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_try/etl_dag.py']
+2025-04-10 18:49:21,942 INFO - Executing command: ['airflow', 'tasks', 'run', 'etl_dag', 'extract_task', 'scheduled__2025-04-09T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_try/etl_dag.py']
+2025-04-10 18:49:24,738 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='etl_dag', task_id='extract_task', run_id='scheduled__2025-04-09T00:00:00+00:00', try_number=1, map_index=-1)
+2025-04-10 18:49:24,743 INFO - TaskInstance Finished: dag_id=etl_dag, task_id=extract_task, run_id=scheduled__2025-04-09T00:00:00+00:00, map_index=-1, run_start_date=2025-04-10 18:49:23.316039+00:00, run_end_date=2025-04-10 18:49:24.369145+00:00, run_duration=1.053106, state=success, executor_state=success, try_number=1, max_tries=0, job_id=41, pool=default_pool, queue=default, priority_weight=3, operator=BashOperator, queued_dttm=2025-04-10 18:49:21.937216+00:00, queued_by_job_id=40, pid=19716
+2025-04-10 18:49:24,985 INFO - 1 tasks up for execution:
+	<TaskInstance: etl_dag.transform_task scheduled__2025-04-09T00:00:00+00:00 [scheduled]>
+2025-04-10 18:49:24,985 INFO - DAG etl_dag has 0/16 running and queued tasks
+2025-04-10 18:49:24,985 INFO - Setting the following tasks to queued state:
+	<TaskInstance: etl_dag.transform_task scheduled__2025-04-09T00:00:00+00:00 [scheduled]>
+2025-04-10 18:49:24,986 INFO - Sending TaskInstanceKey(dag_id='etl_dag', task_id='transform_task', run_id='scheduled__2025-04-09T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2025-04-10 18:49:24,987 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'etl_dag', 'transform_task', 'scheduled__2025-04-09T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_try/etl_dag.py']
+2025-04-10 18:49:24,989 INFO - Executing command: ['airflow', 'tasks', 'run', 'etl_dag', 'transform_task', 'scheduled__2025-04-09T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_try/etl_dag.py']
+2025-04-10 18:49:26,794 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='etl_dag', task_id='transform_task', run_id='scheduled__2025-04-09T00:00:00+00:00', try_number=1, map_index=-1)
+2025-04-10 18:49:26,797 INFO - TaskInstance Finished: dag_id=etl_dag, task_id=transform_task, run_id=scheduled__2025-04-09T00:00:00+00:00, map_index=-1, run_start_date=2025-04-10 18:49:26.347535+00:00, run_end_date=2025-04-10 18:49:26.453083+00:00, run_duration=0.105548, state=success, executor_state=success, try_number=1, max_tries=0, job_id=42, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2025-04-10 18:49:24.986145+00:00, queued_by_job_id=40, pid=19745
+2025-04-10 18:49:27,237 INFO - 1 tasks up for execution:
+	<TaskInstance: etl_dag.load_task scheduled__2025-04-09T00:00:00+00:00 [scheduled]>
+2025-04-10 18:49:27,237 INFO - DAG etl_dag has 0/16 running and queued tasks
+2025-04-10 18:49:27,238 INFO - Setting the following tasks to queued state:
+	<TaskInstance: etl_dag.load_task scheduled__2025-04-09T00:00:00+00:00 [scheduled]>
+2025-04-10 18:49:27,239 INFO - Sending TaskInstanceKey(dag_id='etl_dag', task_id='load_task', run_id='scheduled__2025-04-09T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-10 18:49:27,239 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'etl_dag', 'load_task', 'scheduled__2025-04-09T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_try/etl_dag.py']
+2025-04-10 18:49:27,242 INFO - Executing command: ['airflow', 'tasks', 'run', 'etl_dag', 'load_task', 'scheduled__2025-04-09T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_try/etl_dag.py']
+2025-04-10 18:49:29,067 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='etl_dag', task_id='load_task', run_id='scheduled__2025-04-09T00:00:00+00:00', try_number=1, map_index=-1)
+2025-04-10 18:49:29,070 INFO - TaskInstance Finished: dag_id=etl_dag, task_id=load_task, run_id=scheduled__2025-04-09T00:00:00+00:00, map_index=-1, run_start_date=2025-04-10 18:49:28.619237+00:00, run_end_date=2025-04-10 18:49:28.735423+00:00, run_duration=0.116186, state=success, executor_state=success, try_number=1, max_tries=0, job_id=43, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-10 18:49:27.238537+00:00, queued_by_job_id=40, pid=19765
+2025-04-10 18:49:29,305 INFO - Marking run <DagRun etl_dag @ 2025-04-09 00:00:00+00:00: scheduled__2025-04-09T00:00:00+00:00, state:running, queued_at: 2025-04-10 18:49:21.893765+00:00. externally triggered: False> successful
+2025-04-10 18:49:29,305 INFO - DagRun Finished: dag_id=etl_dag, execution_date=2025-04-09 00:00:00+00:00, run_id=scheduled__2025-04-09T00:00:00+00:00, run_start_date=2025-04-10 18:49:21.908920+00:00, run_end_date=2025-04-10 18:49:29.305864+00:00, run_duration=7.396944, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2025-04-09 00:00:00+00:00, data_interval_end=2025-04-10 00:00:00+00:00, dag_hash=c0c481578e20a2d5cbee5fc5f700a0bc
+2025-04-10 18:49:29,308 INFO - Setting next_dagrun for etl_dag to 2025-04-10T00:00:00+00:00, run_after=2025-04-11T00:00:00+00:00
+2025-04-10 18:50:28,110 INFO - 1 tasks up for execution:
+	<TaskInstance: simple_one_dag.task manual__2025-04-10T18:50:27.034031+00:00 [scheduled]>
+2025-04-10 18:50:28,111 INFO - DAG simple_one_dag has 0/16 running and queued tasks
+2025-04-10 18:50:28,111 INFO - Setting the following tasks to queued state:
+	<TaskInstance: simple_one_dag.task manual__2025-04-10T18:50:27.034031+00:00 [scheduled]>
+2025-04-10 18:50:28,112 INFO - Sending TaskInstanceKey(dag_id='simple_one_dag', task_id='task', run_id='manual__2025-04-10T18:50:27.034031+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-10 18:50:28,112 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'simple_one_dag', 'task', 'manual__2025-04-10T18:50:27.034031+00:00', '--local', '--subdir', 'DAGS_FOLDER/simple_one_dag.py']
+2025-04-10 18:50:28,115 INFO - Executing command: ['airflow', 'tasks', 'run', 'simple_one_dag', 'task', 'manual__2025-04-10T18:50:27.034031+00:00', '--local', '--subdir', 'DAGS_FOLDER/simple_one_dag.py']
+2025-04-10 18:50:29,602 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='simple_one_dag', task_id='task', run_id='manual__2025-04-10T18:50:27.034031+00:00', try_number=1, map_index=-1)
+2025-04-10 18:50:29,605 INFO - TaskInstance Finished: dag_id=simple_one_dag, task_id=task, run_id=manual__2025-04-10T18:50:27.034031+00:00, map_index=-1, run_start_date=2025-04-10 18:50:29.209334+00:00, run_end_date=2025-04-10 18:50:29.306938+00:00, run_duration=0.097604, state=success, executor_state=success, try_number=1, max_tries=0, job_id=44, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-10 18:50:28.111612+00:00, queued_by_job_id=40, pid=20241
+2025-04-10 18:50:29,648 INFO - Marking run <DagRun simple_one_dag @ 2025-04-10 18:50:27.034031+00:00: manual__2025-04-10T18:50:27.034031+00:00, state:running, queued_at: 2025-04-10 18:50:27.047021+00:00. externally triggered: True> successful
+2025-04-10 18:50:29,649 INFO - DagRun Finished: dag_id=simple_one_dag, execution_date=2025-04-10 18:50:27.034031+00:00, run_id=manual__2025-04-10T18:50:27.034031+00:00, run_start_date=2025-04-10 18:50:28.095989+00:00, run_end_date=2025-04-10 18:50:29.649118+00:00, run_duration=1.553129, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-10 18:50:27.034031+00:00, data_interval_end=2025-04-10 18:50:27.034031+00:00, dag_hash=4dfae06ea5a3a96297a94a339faed691
+2025-04-10 18:52:16,896 INFO - 1 tasks up for execution:
+	<TaskInstance: simple_one_dag.hello_task manual__2025-04-10T18:52:15.646025+00:00 [scheduled]>
+2025-04-10 18:52:16,897 INFO - DAG simple_one_dag has 0/16 running and queued tasks
+2025-04-10 18:52:16,897 INFO - Setting the following tasks to queued state:
+	<TaskInstance: simple_one_dag.hello_task manual__2025-04-10T18:52:15.646025+00:00 [scheduled]>
+2025-04-10 18:52:16,898 INFO - Sending TaskInstanceKey(dag_id='simple_one_dag', task_id='hello_task', run_id='manual__2025-04-10T18:52:15.646025+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-10 18:52:16,898 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'simple_one_dag', 'hello_task', 'manual__2025-04-10T18:52:15.646025+00:00', '--local', '--subdir', 'DAGS_FOLDER/simple_one_dag.py']
+2025-04-10 18:52:16,901 INFO - Executing command: ['airflow', 'tasks', 'run', 'simple_one_dag', 'hello_task', 'manual__2025-04-10T18:52:15.646025+00:00', '--local', '--subdir', 'DAGS_FOLDER/simple_one_dag.py']
+2025-04-10 18:52:18,334 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='simple_one_dag', task_id='hello_task', run_id='manual__2025-04-10T18:52:15.646025+00:00', try_number=1, map_index=-1)
+2025-04-10 18:52:18,337 INFO - TaskInstance Finished: dag_id=simple_one_dag, task_id=hello_task, run_id=manual__2025-04-10T18:52:15.646025+00:00, map_index=-1, run_start_date=2025-04-10 18:52:18.020977+00:00, run_end_date=2025-04-10 18:52:18.118281+00:00, run_duration=0.097304, state=success, executor_state=success, try_number=1, max_tries=0, job_id=45, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-10 18:52:16.897754+00:00, queued_by_job_id=40, pid=20923
+2025-04-10 18:52:18,366 INFO - Marking run <DagRun simple_one_dag @ 2025-04-10 18:52:15.646025+00:00: manual__2025-04-10T18:52:15.646025+00:00, state:running, queued_at: 2025-04-10 18:52:15.654302+00:00. externally triggered: True> successful
+2025-04-10 18:52:18,366 INFO - DagRun Finished: dag_id=simple_one_dag, execution_date=2025-04-10 18:52:15.646025+00:00, run_id=manual__2025-04-10T18:52:15.646025+00:00, run_start_date=2025-04-10 18:52:16.881087+00:00, run_end_date=2025-04-10 18:52:18.366270+00:00, run_duration=1.485183, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-10 18:52:15.646025+00:00, data_interval_end=2025-04-10 18:52:15.646025+00:00, dag_hash=0aec9d67b370791ddf9b6e344ae91050
+2025-04-10 18:54:18,631 INFO - Resetting orphaned tasks for active dag runs
+2025-04-10 18:59:18,670 INFO - Resetting orphaned tasks for active dag runs
+2025-04-10 19:02:42,418 INFO - Setting next_dagrun for simple_one_dag to 2025-04-10T00:00:00+00:00, run_after=2025-04-11T00:00:00+00:00
+2025-04-10 19:02:42,480 INFO - 1 tasks up for execution:
+	<TaskInstance: simple_one_dag.hello_task scheduled__2025-04-09T00:00:00+00:00 [scheduled]>
+2025-04-10 19:02:42,483 INFO - DAG simple_one_dag has 0/16 running and queued tasks
+2025-04-10 19:02:42,484 INFO - Setting the following tasks to queued state:
+	<TaskInstance: simple_one_dag.hello_task scheduled__2025-04-09T00:00:00+00:00 [scheduled]>
+2025-04-10 19:02:42,488 INFO - Sending TaskInstanceKey(dag_id='simple_one_dag', task_id='hello_task', run_id='scheduled__2025-04-09T00:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-10 19:02:42,489 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'simple_one_dag', 'hello_task', 'scheduled__2025-04-09T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/simple_one_dag.py']
+2025-04-10 19:02:42,496 INFO - Executing command: ['airflow', 'tasks', 'run', 'simple_one_dag', 'hello_task', 'scheduled__2025-04-09T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/simple_one_dag.py']
+2025-04-10 19:02:44,111 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='simple_one_dag', task_id='hello_task', run_id='scheduled__2025-04-09T00:00:00+00:00', try_number=1, map_index=-1)
+2025-04-10 19:02:44,115 INFO - TaskInstance Finished: dag_id=simple_one_dag, task_id=hello_task, run_id=scheduled__2025-04-09T00:00:00+00:00, map_index=-1, run_start_date=2025-04-10 19:02:43.742660+00:00, run_end_date=2025-04-10 19:02:43.848920+00:00, run_duration=0.10626, state=success, executor_state=success, try_number=1, max_tries=0, job_id=46, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-10 19:02:42.485294+00:00, queued_by_job_id=40, pid=24688
+2025-04-10 19:02:44,656 INFO - Marking run <DagRun simple_one_dag @ 2025-04-09 00:00:00+00:00: scheduled__2025-04-09T00:00:00+00:00, state:running, queued_at: 2025-04-10 19:02:42.412339+00:00. externally triggered: False> successful
+2025-04-10 19:02:44,656 INFO - DagRun Finished: dag_id=simple_one_dag, execution_date=2025-04-09 00:00:00+00:00, run_id=scheduled__2025-04-09T00:00:00+00:00, run_start_date=2025-04-10 19:02:42.428703+00:00, run_end_date=2025-04-10 19:02:44.656527+00:00, run_duration=2.227824, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2025-04-09 00:00:00+00:00, data_interval_end=2025-04-10 00:00:00+00:00, dag_hash=506bbc63e202ae1601f237751af49ae2
+2025-04-10 19:02:44,658 INFO - Setting next_dagrun for simple_one_dag to 2025-04-10T00:00:00+00:00, run_after=2025-04-11T00:00:00+00:00
+2025-04-10 19:04:18,815 INFO - Resetting orphaned tasks for active dag runs
+2025-04-10 19:09:18,855 INFO - Resetting orphaned tasks for active dag runs
+2025-04-10 19:14:18,894 INFO - Resetting orphaned tasks for active dag runs
+2025-04-10 19:19:18,933 INFO - Resetting orphaned tasks for active dag runs
+2025-04-10 19:24:18,971 INFO - Resetting orphaned tasks for active dag runs
+2025-04-10 19:29:19,010 INFO - Resetting orphaned tasks for active dag runs
