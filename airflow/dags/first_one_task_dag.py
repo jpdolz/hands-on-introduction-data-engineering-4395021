@@ -11,7 +11,7 @@ default_args = {
 }
 
 dag = DAG(
-    dag_id='simple_one_dag',
+    dag_id='first_one_task',
     description='Simple dag just with a hello',
     default_args=default_args,
     schedule='@daily',
@@ -23,5 +23,3 @@ task = BashOperator(
     bash_command='echo HELLO!!!!',
     dag=dag
 )
-
-task

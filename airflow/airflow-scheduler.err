@@ -1,5 +1,9 @@
-[2025-04-10 18:49:18 +0000] [19662] [INFO] Starting gunicorn 20.1.0
-[2025-04-10 18:49:18 +0000] [19662] [INFO] Listening at: http://[::]:8793 (19662)
-[2025-04-10 18:49:18 +0000] [19662] [INFO] Using worker: sync
-[2025-04-10 18:49:18 +0000] [19663] [INFO] Booting worker with pid: 19663
-[2025-04-10 18:49:18 +0000] [19665] [INFO] Booting worker with pid: 19665
+[2025-04-13 09:40:02 +0000] [5685] [INFO] Starting gunicorn 20.1.0
+[2025-04-13 09:40:02 +0000] [5685] [INFO] Listening at: http://[::]:8793 (5685)
+[2025-04-13 09:40:02 +0000] [5685] [INFO] Using worker: sync
+[2025-04-13 09:40:02 +0000] [5688] [INFO] Booting worker with pid: 5688
+[2025-04-13 09:40:02 +0000] [5690] [INFO] Booting worker with pid: 5690
+[2025-04-13 10:45:24 +0000] [5685] [INFO] Handling signal: term
+[2025-04-13 10:45:24 +0000] [5688] [INFO] Worker exiting (pid: 5688)
+[2025-04-13 10:45:24 +0000] [5690] [INFO] Worker exiting (pid: 5690)
+[2025-04-13 10:45:24 +0000] [5685] [INFO] Shutting down: Master

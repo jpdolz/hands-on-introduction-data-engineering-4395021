@@ -1,0 +1,841 @@
+[2025-04-13T10:35:10.350+0000] {processor.py:157} INFO - Started process (PID=27986) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:10.351+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:35:10.353+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:10.351+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:10.357+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:10.356+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:35:10.357+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:10.374+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.028 seconds
+[2025-04-13T10:35:12.369+0000] {processor.py:157} INFO - Started process (PID=28024) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:12.370+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:35:12.371+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:12.370+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:12.374+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:12.373+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:35:12.374+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:12.389+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.024 seconds
+[2025-04-13T10:35:15.864+0000] {processor.py:157} INFO - Started process (PID=28042) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:15.864+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:35:15.865+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:15.865+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:15.867+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:15.867+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:35:15.868+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:15.880+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.019 seconds
+[2025-04-13T10:35:19.388+0000] {processor.py:157} INFO - Started process (PID=28068) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:19.389+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:35:19.389+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:19.389+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:19.391+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:19.391+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:35:19.392+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:19.409+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.023 seconds
+[2025-04-13T10:35:22.763+0000] {processor.py:157} INFO - Started process (PID=28096) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:22.764+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:35:22.765+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:22.764+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:22.767+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:22.766+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:35:22.767+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:22.780+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.019 seconds
+[2025-04-13T10:35:25.025+0000] {processor.py:157} INFO - Started process (PID=28112) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:25.026+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:35:25.026+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:25.026+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:25.029+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:25.028+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:35:25.029+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:25.042+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.019 seconds
+[2025-04-13T10:35:36.633+0000] {processor.py:157} INFO - Started process (PID=28224) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:36.634+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:35:36.634+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:36.634+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:36.637+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:36.636+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:35:36.638+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:36.655+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.024 seconds
+[2025-04-13T10:35:49.264+0000] {processor.py:157} INFO - Started process (PID=28331) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:49.265+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:35:49.266+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:49.265+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:49.269+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:49.268+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:35:49.270+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:49.285+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.029 seconds
+[2025-04-13T10:35:59.309+0000] {processor.py:157} INFO - Started process (PID=28406) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:59.310+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:35:59.311+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:59.311+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:59.314+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:35:59.313+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:35:59.314+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:35:59.330+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.023 seconds
+[2025-04-13T10:36:04.852+0000] {processor.py:157} INFO - Started process (PID=28447) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:04.852+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:04.853+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:04.853+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:04.855+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:04.855+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:36:04.856+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:04.871+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.022 seconds
+[2025-04-13T10:36:06.474+0000] {processor.py:157} INFO - Started process (PID=28463) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:06.475+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:06.477+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:06.475+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:06.483+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:06.481+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:36:06.483+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:06.544+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.077 seconds
+[2025-04-13T10:36:12.388+0000] {processor.py:157} INFO - Started process (PID=28503) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:12.388+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:12.389+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:12.389+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:12.391+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:12.391+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:36:12.391+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:12.404+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:36:16.558+0000] {processor.py:157} INFO - Started process (PID=28523) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:16.559+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:16.560+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:16.559+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:16.563+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:16.562+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 9
+    default_args={'owner': 'logan', 'start_date': days_ago(1)}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-13T10:36:16.563+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:16.579+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.024 seconds
+[2025-04-13T10:36:33.831+0000] {processor.py:157} INFO - Started process (PID=28655) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:33.831+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:33.832+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:33.832+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:33.842+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:33.936+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:33.935+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:fourth_multiple_task_dag
+[2025-04-13T10:36:33.943+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:33.942+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:fourth_multiple_task_dag
+[2025-04-13T10:36:33.947+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:33.947+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:fourth_multiple_task_dag
+[2025-04-13T10:36:33.955+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:33.954+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:36:33.962+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:33.962+0000] {dag.py:2763} INFO - Creating ORM DAG for fourth_multiple_task_dag
+[2025-04-13T10:36:33.968+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:33.967+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:36:33.982+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.154 seconds
+[2025-04-13T10:36:38.866+0000] {processor.py:157} INFO - Started process (PID=28678) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:38.866+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:38.867+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:38.867+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:38.883+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:38.891+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:38.891+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:36:38.914+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:38.914+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:36:38.948+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.085 seconds
+[2025-04-13T10:36:45.021+0000] {processor.py:157} INFO - Started process (PID=28727) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:45.022+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:45.022+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:45.022+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:45.025+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:45.024+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 19
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:36:45.025+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:45.037+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:36:47.505+0000] {processor.py:157} INFO - Started process (PID=28749) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:47.506+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:47.506+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:47.506+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:47.509+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:47.508+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 19
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:36:47.509+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:47.521+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:36:51.017+0000] {processor.py:157} INFO - Started process (PID=28768) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:51.018+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:51.018+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:51.018+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:51.021+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:51.020+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 24
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:36:51.021+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:51.036+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.020 seconds
+[2025-04-13T10:36:52.993+0000] {processor.py:157} INFO - Started process (PID=28789) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:52.993+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:52.994+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:52.994+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:52.996+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:52.996+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 24
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:36:52.997+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:53.009+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:36:56.401+0000] {processor.py:157} INFO - Started process (PID=28813) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:56.401+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:56.402+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:56.402+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:56.404+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:56.404+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 24
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:36:56.404+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:56.417+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.019 seconds
+[2025-04-13T10:36:57.992+0000] {processor.py:157} INFO - Started process (PID=28827) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:57.992+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:36:57.993+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:57.993+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:57.995+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:36:57.995+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 29
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:36:57.995+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:36:58.009+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.019 seconds
+[2025-04-13T10:37:00.183+0000] {processor.py:157} INFO - Started process (PID=28836) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:00.183+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:00.184+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:00.184+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:00.186+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:00.186+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 29
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:00.186+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:00.199+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:04.189+0000] {processor.py:157} INFO - Started process (PID=28869) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:04.190+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:04.191+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:04.190+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:04.194+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:04.193+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 29
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:04.194+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:04.206+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:06.155+0000] {processor.py:157} INFO - Started process (PID=28884) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:06.156+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:06.157+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:06.156+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:06.159+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:06.158+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 29
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:06.159+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:06.171+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:08.124+0000] {processor.py:157} INFO - Started process (PID=28898) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:08.124+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:08.125+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:08.125+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:08.127+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:08.127+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 34
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:08.127+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:08.142+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.021 seconds
+[2025-04-13T10:37:09.267+0000] {processor.py:157} INFO - Started process (PID=28900) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:09.268+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:09.269+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:09.268+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:09.271+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:09.270+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 34
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:09.271+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:09.283+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:11.540+0000] {processor.py:157} INFO - Started process (PID=28917) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:11.541+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:11.542+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:11.541+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:11.544+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:11.543+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 34
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:11.544+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:11.556+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:12.674+0000] {processor.py:157} INFO - Started process (PID=28935) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:12.675+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:12.675+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:12.675+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:12.678+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:12.677+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 34
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:12.678+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:12.690+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:15.430+0000] {processor.py:157} INFO - Started process (PID=28945) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:15.430+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:15.431+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:15.431+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:15.433+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:15.433+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 39
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:15.434+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:15.446+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:17.898+0000] {processor.py:157} INFO - Started process (PID=28973) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:17.899+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:17.900+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:17.899+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:17.902+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:17.901+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 39
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:17.902+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:17.915+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:19.705+0000] {processor.py:157} INFO - Started process (PID=28978) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:19.706+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:19.707+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:19.706+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:19.709+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:19.708+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 39
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:19.709+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:19.722+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:21.297+0000] {processor.py:157} INFO - Started process (PID=28987) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:21.298+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:21.298+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:21.298+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:21.301+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:21.300+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 39
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:21.301+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:21.313+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.019 seconds
+[2025-04-13T10:37:23.454+0000] {processor.py:157} INFO - Started process (PID=29011) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:23.454+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:23.455+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:23.455+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:23.458+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:23.457+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 39
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:23.458+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:23.471+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.019 seconds
+[2025-04-13T10:37:25.145+0000] {processor.py:157} INFO - Started process (PID=29022) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:25.146+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:25.147+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:25.147+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:25.149+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:25.149+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 44
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:25.149+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:25.161+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:27.408+0000] {processor.py:157} INFO - Started process (PID=29032) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:27.409+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:27.409+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:27.409+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:27.412+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:27.411+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 44
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:27.412+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:27.430+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.024 seconds
+[2025-04-13T10:37:28.702+0000] {processor.py:157} INFO - Started process (PID=29052) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:28.703+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:28.703+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:28.703+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:28.706+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:28.706+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 44
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:28.707+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:28.718+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:30.290+0000] {processor.py:157} INFO - Started process (PID=29061) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:30.291+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:30.292+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:30.291+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:30.294+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:30.293+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 44
+    task_a = BashOperator(
+IndentationError: unexpected indent
+[2025-04-13T10:37:30.294+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:30.306+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.018 seconds
+[2025-04-13T10:37:32.448+0000] {processor.py:157} INFO - Started process (PID=29070) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:32.449+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:32.450+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:32.449+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:32.458+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:32.457+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 44, in <module>
+    task_a = BashOperator(
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 806, in __init__
+    task_group.add(self)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 227, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'task_a' has already been added to the DAG
+[2025-04-13T10:37:32.459+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:32.473+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.027 seconds
+[2025-04-13T10:37:33.577+0000] {processor.py:157} INFO - Started process (PID=29089) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:33.577+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:33.578+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:33.578+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:33.585+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:33.584+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 44, in <module>
+    task_g = BashOperator(
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 806, in __init__
+    task_group.add(self)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 227, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'task_a' has already been added to the DAG
+[2025-04-13T10:37:33.585+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:33.597+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.022 seconds
+[2025-04-13T10:37:35.389+0000] {processor.py:157} INFO - Started process (PID=29097) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:35.389+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:35.390+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:35.390+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:35.396+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:35.395+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 49, in <module>
+    task_a = BashOperator(
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 806, in __init__
+    task_group.add(self)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 227, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'task_a' has already been added to the DAG
+[2025-04-13T10:37:35.397+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:35.408+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.022 seconds
+[2025-04-13T10:37:37.455+0000] {processor.py:157} INFO - Started process (PID=29106) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:37.456+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:37.457+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:37.456+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:37.463+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:37.462+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 49, in <module>
+    task_a = BashOperator(
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 150, in __init__
+    super().__init__(**kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 429, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 806, in __init__
+    task_group.add(self)
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 227, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'task_a' has already been added to the DAG
+[2025-04-13T10:37:37.463+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:37.475+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.022 seconds
+[2025-04-13T10:37:40.489+0000] {processor.py:157} INFO - Started process (PID=29133) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:40.490+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:37:40.490+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:40.490+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:40.502+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:37:40.573+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:40.573+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:37:40.585+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:37:40.585+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:37:40.602+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.115 seconds
+[2025-04-13T10:38:11.566+0000] {processor.py:157} INFO - Started process (PID=29322) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:11.567+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:38:11.567+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:11.567+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:11.578+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:11.595+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:11.594+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:38:11.607+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:11.607+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:38:11.621+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.057 seconds
+[2025-04-13T10:38:38.798+0000] {processor.py:157} INFO - Started process (PID=29493) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:38.799+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:38:38.799+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:38.799+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:38.811+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:38.827+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:38.827+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:38:38.840+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:38.840+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:38:38.854+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.059 seconds
+[2025-04-13T10:38:45.156+0000] {processor.py:157} INFO - Started process (PID=29536) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:45.157+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:38:45.157+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:45.157+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:45.164+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:45.163+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 50, in <module>
+    task_a >> task
+NameError: name 'task' is not defined
+[2025-04-13T10:38:45.165+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:45.176+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.022 seconds
+[2025-04-13T10:38:51.773+0000] {processor.py:157} INFO - Started process (PID=29586) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:51.773+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:38:51.774+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:51.773+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:51.780+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:51.779+0000] {dagbag.py:350} ERROR - Failed to import: /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py", line 50, in <module>
+    task_a >> task_b >> task_
+NameError: name 'task_' is not defined. Did you mean: 'task_a'?
+[2025-04-13T10:38:51.781+0000] {processor.py:838} WARNING - No viable dags retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:51.792+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.022 seconds
+[2025-04-13T10:38:57.463+0000] {processor.py:157} INFO - Started process (PID=29623) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:57.467+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:38:57.467+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:57.467+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:57.514+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:38:57.695+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:57.695+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:38:57.712+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:38:57.712+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:38:57.735+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.283 seconds
+[2025-04-13T10:39:07.965+0000] {processor.py:157} INFO - Started process (PID=29700) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:07.966+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:39:07.967+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:07.966+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:07.978+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:07.984+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:07.984+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:39:07.997+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:07.997+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:39:08.012+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.048 seconds
+[2025-04-13T10:39:14.690+0000] {processor.py:157} INFO - Started process (PID=29743) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:14.690+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:39:14.691+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:14.691+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:14.702+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:14.708+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:14.708+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:39:14.721+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:14.721+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:39:14.736+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.049 seconds
+[2025-04-13T10:39:26.847+0000] {processor.py:157} INFO - Started process (PID=29829) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:26.847+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:39:26.848+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:26.848+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:26.860+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:26.865+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:26.865+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:39:26.879+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:26.879+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:39:26.894+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.049 seconds
+[2025-04-13T10:39:57.323+0000] {processor.py:157} INFO - Started process (PID=30021) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:57.326+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:39:57.326+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:57.326+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:57.353+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:39:57.569+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:57.568+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:39:57.610+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:39:57.610+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:39:57.740+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.422 seconds
+[2025-04-13T10:40:27.838+0000] {processor.py:157} INFO - Started process (PID=30210) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:40:27.838+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:40:27.839+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:40:27.839+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:40:27.850+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:40:27.867+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:40:27.866+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:40:27.880+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:40:27.880+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:40:27.893+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.058 seconds
+[2025-04-13T10:40:58.331+0000] {processor.py:157} INFO - Started process (PID=30392) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:40:58.331+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:40:58.332+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:40:58.332+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:40:58.343+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:40:58.359+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:40:58.359+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:40:58.372+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:40:58.372+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:40:58.385+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.056 seconds
+[2025-04-13T10:41:28.825+0000] {processor.py:157} INFO - Started process (PID=30579) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:41:28.825+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:41:28.826+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:41:28.826+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:41:28.837+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:41:28.854+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:41:28.854+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:41:28.866+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:41:28.866+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:41:28.880+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.057 seconds
+[2025-04-13T10:41:59.322+0000] {processor.py:157} INFO - Started process (PID=30768) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:41:59.322+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:41:59.323+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:41:59.323+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:41:59.334+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:41:59.350+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:41:59.350+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:41:59.362+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:41:59.362+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-12T00:00:00+00:00, run_after=2025-04-13T00:00:00+00:00
+[2025-04-13T10:41:59.375+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.056 seconds
+[2025-04-13T10:42:30.550+0000] {processor.py:157} INFO - Started process (PID=30969) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:42:30.551+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:42:30.551+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:42:30.551+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:42:30.563+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:42:30.579+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:42:30.579+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:42:30.591+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:42:30.591+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-13T00:00:00+00:00, run_after=2025-04-14T00:00:00+00:00
+[2025-04-13T10:42:30.605+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.057 seconds
+[2025-04-13T10:43:01.239+0000] {processor.py:157} INFO - Started process (PID=31158) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:43:01.240+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:43:01.241+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:43:01.240+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:43:01.256+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:43:01.280+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:43:01.279+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:43:01.293+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:43:01.293+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-13T00:00:00+00:00, run_after=2025-04-14T00:00:00+00:00
+[2025-04-13T10:43:01.308+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.072 seconds
+[2025-04-13T10:43:33.069+0000] {processor.py:157} INFO - Started process (PID=31369) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:43:33.070+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:43:33.070+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:43:33.070+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:43:33.082+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:43:33.152+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:43:33.152+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:43:33.165+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:43:33.165+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-13T00:00:00+00:00, run_after=2025-04-14T00:00:00+00:00
+[2025-04-13T10:43:33.178+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.111 seconds
+[2025-04-13T10:44:03.931+0000] {processor.py:157} INFO - Started process (PID=31575) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:44:03.931+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:44:03.932+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:44:03.932+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:44:03.943+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:44:03.959+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:44:03.959+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:44:03.972+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:44:03.972+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-13T00:00:00+00:00, run_after=2025-04-14T00:00:00+00:00
+[2025-04-13T10:44:03.985+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.057 seconds
+[2025-04-13T10:44:34.531+0000] {processor.py:157} INFO - Started process (PID=31857) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:44:34.532+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:44:34.532+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:44:34.532+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:44:34.543+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:44:34.559+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:44:34.559+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:44:34.573+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:44:34.573+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-13T00:00:00+00:00, run_after=2025-04-14T00:00:00+00:00
+[2025-04-13T10:44:34.586+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.057 seconds
+[2025-04-13T10:45:04.716+0000] {processor.py:157} INFO - Started process (PID=32157) to work on /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:45:04.716+0000] {processor.py:826} INFO - Processing file /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py for tasks to queue
+[2025-04-13T10:45:04.717+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:45:04.717+0000] {dagbag.py:541} INFO - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:45:04.728+0000] {processor.py:836} INFO - DAG(s) dict_keys(['fourth_multiple_task_dag']) retrieved from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py
+[2025-04-13T10:45:04.745+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:45:04.745+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-04-13T10:45:04.758+0000] {logging_mixin.py:150} INFO - [2025-04-13T10:45:04.758+0000] {dag.py:3504} INFO - Setting next_dagrun for fourth_multiple_task_dag to 2025-04-13T00:00:00+00:00, run_after=2025-04-14T00:00:00+00:00
+[2025-04-13T10:45:04.772+0000] {processor.py:179} INFO - Processing /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/fourth_multiple_task_dag.py took 0.058 seconds
